@@ -17,3 +17,16 @@ let homeAddress = "Nikau Appartments"; // camelCase 最初の文字は小文字�
 
 let userAge = 49; 
 console.log(userAge);
+
+console.log(typeof homeAddress);
+
+console.log(5+3);
+
+console.log(8/2);
+console.log(9 % 2);
+
+console.log(2**3);
+console.log(5 == 5);
+console.log(5 === 5);
+console.log(5 == "5");
+console.log(5 !== 5); 
