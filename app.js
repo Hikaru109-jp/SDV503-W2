@@ -14,3 +14,6 @@ const MAX = 100;
 // MAX = 200;
 
 let homeAddress = "Nikau Appartments"; // camelCase 最初の文字は小文字、その後の文字は大文字　スペース無し
+
+let userAge = 49; 
+console.log(userAge);
