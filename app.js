@@ -52,6 +52,7 @@ msg.split(", ") //["Hello", "JavaScript"]
 
 
 
+
 console.log(`The length of msg is = ${msg.length}`) //new version use this!!
 const name = "Ali";
 const age = 25;
@@ -61,6 +62,8 @@ const msg1 = "Hello, " + name + "! You are " + age + "years old.";
 
 // New way - template literal (clean and readable)
 const msg2 = `Hello, ${name}! You are ${age} years old.`;
+
+
 
 // //Multi-line strings
 // const html = 
@@ -72,3 +75,38 @@ const msg2 = `Hello, ${name}! You are ${age} years old.`;
 
 // // Any expression works inside ${}
 // const total = `Price: ${12.99 * 3}.toFixed(2)}`; //"Price: 38.97"
+
+// console.log(fullName);
+// let fullNmae = "Hikaru Okano"
+
+// fullName = "Kasumi Okano"
+
+
+
+
+// if / else if / else
+const score = 75;
+if (score >= 90) {
+    console.log("A");
+}   else if (score >= 80) {
+    console.log("B")
+}   else if (score >= 70) {
+    console.log("C");
+}   else {
+    console.log("Below C")
+}
+
+
+// switch - great for exact matches
+const day = "Monday";
+switch (day) {
+    case "Monday":
+    case "Tuesday":
+        console.log("Start of week");
+        break;
+    case "Friday":
+        console.log("TGIF!");
+        break;
+    default:
+        console.log("Midweek")
+}
